@@ -37,7 +37,6 @@ namespace WindowsFormsApp2
             this.TxtAños = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.LBLresultado = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -67,6 +66,7 @@ namespace WindowsFormsApp2
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(136, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -100,19 +100,10 @@ namespace WindowsFormsApp2
             // 
             this.LBLresultado.AutoSize = true;
             this.LBLresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLresultado.Location = new System.Drawing.Point(650, 72);
+            this.LBLresultado.Location = new System.Drawing.Point(670, 40);
             this.LBLresultado.Name = "LBLresultado";
             this.LBLresultado.Size = new System.Drawing.Size(0, 25);
             this.LBLresultado.TabIndex = 12;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.Ivory;
-            this.textBox3.ForeColor = System.Drawing.Color.Yellow;
-            this.textBox3.Location = new System.Drawing.Point(640, 106);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 5;
             // 
             // Form1
             // 
@@ -122,7 +113,6 @@ namespace WindowsFormsApp2
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LBLresultado);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.TxtAños);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
@@ -146,7 +136,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.TextBox TxtAños;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label LBLresultado;
-        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
