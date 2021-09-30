@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp2
 {
-    partial class Form1
+    partial class Form_edad
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -100,17 +100,17 @@ namespace WindowsFormsApp2
             // 
             this.LBLresultado.AutoSize = true;
             this.LBLresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLresultado.Location = new System.Drawing.Point(670, 40);
+            this.LBLresultado.Location = new System.Drawing.Point(154, 176);
             this.LBLresultado.Name = "LBLresultado";
             this.LBLresultado.Size = new System.Drawing.Size(0, 25);
             this.LBLresultado.TabIndex = 12;
             // 
-            // Form1
+            // Form_edad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(878, 450);
             this.Controls.Add(this.LBLresultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtAños);
@@ -118,7 +118,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Form_edad";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
